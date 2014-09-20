@@ -92,18 +92,6 @@
       <?php endif; ?>
     </td>
     <td class="main-menu" width="70%" align="center" valign="middle">
-      <?php print theme('links__system_main_menu', array(
-        'links' => $main_menu,
-        'attributes' => array(
-          'id' => 'navlist',
-          'class' => array('links'),
-        ),
-        'heading' => array(
-          'text' => t('Main menu'),
-          'level' => 'h2',
-          'class' => array('element-invisible'),
-        ),
-      )); ?>
     </td>
   </tr>
 </table>
